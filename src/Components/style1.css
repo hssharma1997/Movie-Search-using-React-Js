@@ -1,0 +1,45 @@
+.card{
+    width:16rem;
+    color:gold;
+    }
+
+.div_card{
+    margin:25px 15px;
+        border:2px solid gold;
+        border-radius:2px;
+        transition: transform .2s;
+        
+        
+        
+}
+.div_card:hover{
+    transform: scale(1.1);
+   
+}
+.input_form{
+    background-color:black;
+        border:none;
+        border-bottom:2px solid gold;
+        width:15rem;
+        height:2rem;
+        color: white;
+        text-align: center;
+       
+}
+.input_form:focus{
+    border:none;
+    
+}
+.nav{
+    color:gold;
+    height:50px;
+    text-align: center;
+    
+}
+.moviecard{
+    display:flex;
+        flex-wrap:wrap;
+        justify-content:center
+    
+
+}
